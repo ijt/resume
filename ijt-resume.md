@@ -50,14 +50,14 @@ Support Engineer, May 2007 - Nov 2008 (1 year 7 months), Mountain View, CA
 * Fought spam in the Google AdSense network by analyzing traffic on publisher sites 
 
 ## UC Davis 
-Programmer IV 2002 - 2006 (5 years) 
+Programmer IV 2002 - 2006 (5 years), Davis, CA
 
 * Wrote a desktop client application to view brain cross sections together as stacks in 3D 
 * Developed an algorithm to compute probabilities of connections between pairs of brain areas from sparse experimental data 
 * Wrote a pair of Mac applications to align and unwarp images for 3D reconstruction 
 
 ## Idol Minds 
-Programmer, 2001 - 2002 (2 years) 
+Programmer, 2001 - 2002 (2 years), Boulder, CO
 
 * Adapted an algorithm for triangle mesh simplication to enhance rendering performance of a Playstation 2 game
 
