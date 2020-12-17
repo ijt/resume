@@ -4,7 +4,7 @@ Senior Software Engineer
 issac.trotts@gmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
 
 ## Speakeasy Events 
-speakeasyevents.live, demo upon request
+https://speakeasyevents.live, demo upon request
 
 CTO, April 2020 - Present, Remote
 
