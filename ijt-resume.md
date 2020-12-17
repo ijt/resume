@@ -18,11 +18,13 @@ Aug 2017-Mar 2018: SWE on Go Cloud team
 
 * Released a portable pubsub API
 * Streamlined developer experience around testing 
+
 Apr 2016-Aug 2018: Tech Lead for PHP on App Engine team 
+
 * Launched php72 runtime beta (news.ycombinator.com/item?id=17810591)
 
 ## VideoSurf 
-Software Engineer, Oct 2010 - Sep 2012 (1 year, 11 months) San Mateo, CA 
+Software Engineer, Oct 2010 - Sep 2012 (1 year, 11 months), San Mateo, CA 
 
 * Wrote and deployed daemons to find duplicate videos and map them to a catalog via fuzzy text matching 
 * Sped up key textmining operations such as deduplication by thousands of times by making better use of the Postgres database, enabling updates of the whole site 
@@ -30,7 +32,7 @@ Software Engineer, Oct 2010 - Sep 2012 (1 year, 11 months) San Mateo, CA
 * Improved textminer performance from multiple seconds per video to 50 msec per video 
 
 ## YouTube 
-Software Engineer, December 2008 - October 2010 (1 year 11 months) San Bruno, CA
+Software Engineer, December 2008 - October 2010 (1 year 11 months), San Bruno, CA
 
 * Designed a dependency tracking system for denormalized view generation
 * Added atomic updating of sharded tables in our data warehouse 
