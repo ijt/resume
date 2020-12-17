@@ -16,7 +16,7 @@ Software Engineer, April 2016 - March 2019 (3 years), San Francisco, CA
 
 Aug 2017-Mar 2018: SWE on Go Cloud team 
 
-* Released a portable pubsub API.
+* Released a portable pubsub API
 * Streamlined developer experience around testing 
 Apr 2016-Aug 2018: Tech Lead for PHP on App Engine team 
 * Launched php72 runtime beta (news.ycombinator.com/item?id=17810591)
@@ -32,7 +32,8 @@ Software Engineer, Oct 2010 - Sep 2012 (1 year, 11 months) San Mateo, CA
 ## YouTube 
 Software Engineer, December 2008 - October 2010 (1 year 11 months) San Bruno, CA
 
-* Designed a dependency tracking system for denormalized view generation. Added atomic updating of sharded tables in our data warehouse 
+* Designed a dependency tracking system for denormalized view generation
+* Added atomic updating of sharded tables in our data warehouse 
 * Wrote a suite of sawzall scripts for abuse detection 
 * Added a feature to neutralize mass-produced spam accounts without alert- ing the spam farmers who make them 
 * Implemented a feature that combats brute-force password attacks 
