@@ -3,10 +3,12 @@ Senior Software Engineer
 
 issac.trotts@gmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
 
-## Speakeasy Events (speakeasyevents.live, demo upon request)
+## Speakeasy Events 
+speakeasyevents.live, demo upon request
+
 CTO, April 2020 - Present, Remote
 
-* Handled all technical aspects of creating a new video events platform that can run events with over 300 participants
+* Handled all technical aspects of creating a new video events platform that can run events with over 300 participants at once
 * Worked with three cofounders in Australia on business, landing a first customer running multiple events per week often with hundreds of guests
 
 ## Google 
@@ -17,7 +19,7 @@ Aug 2017-Mar 2018: SWE on Go Cloud team
 * Released a portable pubsub API.
 * Streamlined developer experience around testing 
 Apr 2016-Aug 2018: Tech Lead for PHP on App Engine team 
-* Launched php72 runtime beta (news.ycombinator.com/item? id=17810591)
+* Launched php72 runtime beta (news.ycombinator.com/item?id=17810591)
 
 ## VideoSurf 
 Software Engineer, Oct 2010 - Sep 2012 (1 year, 11 months) San Mateo, CA 
