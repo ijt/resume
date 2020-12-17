@@ -35,15 +35,17 @@ Software Engineer, Oct 2010 - Sep 2012 (1 year, 11 months), San Mateo, CA
 Software Engineer, Dec 2008 - Oct 2010 (1 year 11 months), San Bruno, CA
 
 * Designed a dependency tracking system for denormalized view generation
-* Added atomic updating of sharded tables in our data warehouse 
+* Added atomic updating of sharded tables in a data warehouse 
 * Wrote a suite of sawzall scripts for abuse detection 
-* Added a feature to neutralize mass-produced spam accounts without alert- ing the spam farmers who make them 
+* Added a feature to neutralize mass-produced spam accounts without alerting the spam farmers who make them 
 * Implemented a feature that combats brute-force password attacks 
 * Eliminated YouTube’s problem with chain comments 
 * Added filters for comment spam and personal message spam 
 
 ## Google 
 Support Engineer, May 2007 - Nov 2008 (1 year 7 months), Mountain View, CA
+
+Ad Spam Operations team
 
 * Developed a new phone verification system with a failure rate less than one quarter of the legacy system it replaced 
 * Developed a new GWT-based UI for spam investigations 
@@ -54,7 +56,7 @@ Programmer IV 2002 - 2006 (5 years), Davis, CA
 
 * Wrote a desktop client application to view brain cross sections together as stacks in 3D 
 * Developed an algorithm to compute probabilities of connections between pairs of brain areas from sparse experimental data 
-* Wrote a pair of Mac applications to align and unwarp images for 3D reconstruction 
+* Wrote Mac applications to align and unwarp images for 3D reconstruction 
 
 ## Idol Minds 
 Programmer, 2001 - 2002 (2 years), Boulder, CO
