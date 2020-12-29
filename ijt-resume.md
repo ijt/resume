@@ -61,7 +61,7 @@ Programmer IV 2002 - 2006 (5 years), Davis, CA
 ## Idol Minds 
 Programmer, 2001 - 2002 (2 years), Boulder, CO
 
-* Adapted an algorithm for triangle mesh simplication to enhance rendering performance of a Playstation 2 game
+* Adapted an algorithm for triangle mesh simplification to enhance rendering performance of a Playstation 2 game
 
 ## NASA Ames Research Center 
 Intern, June 1999 - September 1999 (4 months), Mountain View, CA 
