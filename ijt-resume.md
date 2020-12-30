@@ -17,7 +17,6 @@ Software Engineer, Apr 2016 - Mar 2019 (3 years), San Francisco, CA
 Aug 2017 - Mar 2019: SWE on Go Cloud team 
 
 * Released a portable pubsub API
-* Streamlined developer experience around testing 
 
 Apr 2016 - Aug 2018: Tech Lead for PHP on App Engine team 
 
