@@ -6,10 +6,10 @@ issac.trotts@gmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
 ## Speakeasy Events 
 https://speakeasyevents.live, demo upon request
 
-CTO, April 2020 - Present, Remote
+Cofounder, April 2020 - Present, Remote
 
-* Handled all technical aspects of creating a new video events platform that can run events with over 300 participants at once
-* Worked with three cofounders in Australia on business, landing a first customer running multiple events per week often with hundreds of guests
+* Handling all technical aspects of creating a new video events platform that can run events with over 300 participants at once
+* Working with three cofounders in Australia on business, landing a first customer running multiple events per week often with hundreds of guests
 
 ## Google 
 Software Engineer, Apr 2016 - Mar 2019 (3 years), San Francisco, CA
