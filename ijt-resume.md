@@ -1,6 +1,4 @@
 # Issac Trotts
-Senior Software Engineer
-
 issac.trotts@gmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
 
 ## Stairwell
@@ -29,7 +27,7 @@ Aug 2017 - Mar 2019: SWE on Go Cloud team
 
 * Released a portable pubsub API
 
-Apr 2016 - Aug 2018: Tech Lead for PHP on App Engine team 
+Apr 2016 - Aug 2018: SWE on App Engine Runtimes team
 
 * Launched php72 runtime beta (news.ycombinator.com/item?id=17810591)
 
