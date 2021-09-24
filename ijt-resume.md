@@ -4,7 +4,7 @@ Senior Software Engineer
 issac.trotts@gmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
 
 ## Stairwell
-Senior sofware engineer, Apr - Present, Remote
+Senior Sofware Engineer, Apr - Present, Remote
 
 * Added a new ingester
 
