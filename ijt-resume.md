@@ -1,3 +1,6 @@
+---
+fontfamily: dejavu
+---
 # Issac Trotts
 issac.trotts@protonmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
 
