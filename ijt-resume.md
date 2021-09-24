@@ -1,8 +1,8 @@
 # Issac Trotts
-issac.trotts@gmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
+issac.trotts@protonmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
 
 ## Stairwell
-Senior Sofware Engineer, Apr - Present, Remote
+Sofware Engineer, Apr - Present, Remote
 
 * Added a new ingester
 
@@ -23,11 +23,11 @@ Contractor, Dec 2019 - Present, Remote
 ## Google 
 Software Engineer, Apr 2016 - Mar 2019 (3 years), San Francisco, CA
 
-Aug 2017 - Mar 2019: SWE on Go Cloud team 
+Aug 2017 - Mar 2019: Go Cloud team 
 
 * Released a portable pubsub API
 
-Apr 2016 - Aug 2018: SWE on App Engine Runtimes team
+Apr 2016 - Aug 2018: App Engine Runtimes team
 
 * Launched php72 runtime beta (news.ycombinator.com/item?id=17810591)
 
