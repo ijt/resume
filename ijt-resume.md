@@ -7,7 +7,7 @@ issac.trotts@protonmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
 ## Stairwell
 Sofware Engineer, Apr 2021 - Present, Remote
 
-* Added a new ingester
+* Added a new malware ingester
 
 ## Speakeasy Events 
 https://speakeasyevents.live, demo upon request
