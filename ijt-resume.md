@@ -5,14 +5,12 @@ fontfamily: dejavu
 issac.trotts@protonmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
 
 ## Stairwell
-Sofware Engineer, Apr 2021 - Present, Remote
+Sofware Engineer, Apr 2021 - Oct 2021, Remote
 
 * Added a new malware ingester
 
-## Speakeasy Events 
-https://speakeasyevents.live, demo upon request
-
-Cofounder, Apr 2020 - Apr 2021 (1 year), Remote
+## Speakeasy
+Cofounder, Apr 2020 - Apr 2021, Remote
 
 * Handled all technical aspects of creating a new video events platform that can run events with over 300 participants at once
 * Worked with three cofounders in Australia on business, landing a first customer running multiple events per week often with hundreds of guests
@@ -24,7 +22,7 @@ Contractor, Dec 2019 - Present, Remote
   available offline
 
 ## Google 
-Software Engineer, Apr 2016 - Mar 2019 (3 years), San Francisco, CA
+Software Engineer, Apr 2016 - Mar 2019, San Francisco, CA
 
 Aug 2017 - Mar 2019: Go Cloud team 
 
@@ -35,7 +33,7 @@ Apr 2016 - Aug 2018: App Engine Runtimes team
 * Launched php72 runtime beta (news.ycombinator.com/item?id=17810591)
 
 ## VideoSurf 
-Software Engineer, Oct 2010 - Sep 2012 (1 year, 11 months), San Mateo, CA 
+Software Engineer, Oct 2010 - Sep 2012, San Mateo, CA 
 
 * Wrote and deployed daemons to find duplicate videos and map them to a catalog via fuzzy text matching 
 * Sped up key textmining operations such as deduplication by thousands of times by making better use of the Postgres database, enabling updates of the whole site 
@@ -43,7 +41,7 @@ Software Engineer, Oct 2010 - Sep 2012 (1 year, 11 months), San Mateo, CA
 * Improved textminer performance from multiple seconds per video to 50 msec per video 
 
 ## YouTube 
-Software Engineer, Dec 2008 - Oct 2010 (1 year 11 months), San Bruno, CA
+Software Engineer, Dec 2008 - Oct 2010, San Bruno, CA
 
 * Designed a dependency tracking system for denormalized view generation
 * Added atomic updating of sharded tables in a data warehouse 
@@ -54,7 +52,7 @@ Software Engineer, Dec 2008 - Oct 2010 (1 year 11 months), San Bruno, CA
 * Added filters for comment spam and personal message spam 
 
 ## Google 
-Support Engineer, May 2007 - Nov 2008 (1 year 7 months), Mountain View, CA
+Support Engineer, May 2007 - Nov 2008, Mountain View, CA
 
 Ad Spam Operations team
 
@@ -63,19 +61,19 @@ Ad Spam Operations team
 * Fought spam in the Google AdSense network by analyzing traffic on publisher sites 
 
 ## UC Davis 
-Programmer IV 2002 - 2006 (5 years), Davis, CA
+Programmer IV 2002 - 2006, Davis, CA
 
 * Wrote a desktop client application to view brain cross sections together as stacks in 3D 
 * Developed an algorithm to compute probabilities of connections between pairs of brain areas from sparse experimental data 
 * Wrote Mac applications to align and unwarp images for 3D reconstruction 
 
 ## Idol Minds 
-Programmer, 2001 - 2002 (2 years), Boulder, CO
+Programmer, 2001 - 2002, Boulder, CO
 
 * Adapted an algorithm for triangle mesh simplification to enhance rendering performance of a Playstation 2 game
 
 ## NASA Ames Research Center 
-Intern, June 1999 - September 1999 (4 months), Mountain View, CA 
+Intern, June 1999 - September 1999, Mountain View, CA 
 
 * Investigated an edge-collapse algorithm for simplifying tetrahedral meshes with associated scalar fields 
 
