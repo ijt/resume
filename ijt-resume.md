@@ -4,6 +4,11 @@ fontfamily: dejavu
 # Issac Trotts
 issac.trotts@protonmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
 
+## illumineX
+Software Engineer / Contractor, Nov 2021 - Present, Remote
+
+* Reducing deployment risks for a Go app doing voice-driven queries against APIs
+
 ## Stairwell
 Sofware Engineer, Apr 2021 - Oct 2021, Remote
 
