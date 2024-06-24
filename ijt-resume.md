@@ -7,7 +7,8 @@ issac.trotts@protonmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
 ## illumineX
 Software Engineer / Contractor, Nov 2021 - Present, Remote
 
-* Reducing deployment risks for a Go app doing voice-driven queries against APIs
+* Rewrote Natural Language Processing engine for mīstro AI trading system, added over a thousand test cases
+* Built a new system called first.then.next with AI and a calendar to support people's independence and success
 
 ## Stairwell
 Sofware Engineer, Apr 2021 - Oct 2021, Remote
