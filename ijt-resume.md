@@ -11,13 +11,9 @@ Other: Distributed systems, performance tuning, automated testing
 
 Professional Experience
 
-Independent Contractor / Multiple Engagements                                      Dec 2019 – Present (Remote)
-illumineX (Software Engineer, Nov 2021 – Present)
-• Rewrote core NLP engine for mīstro AI trading system, boosting accuracy/throughput significantly and adding 1,000+ automated test cases for 95%+ coverage
+illumineX (Software Engineering Contractor)                                        Nov 2021 – Present) (Remote)
+• Rewrote core NLP engine for mīstro AI trading system, boosting accuracy/throughput significantly and adding over a thousand automated test cases
 • Designed and launched first.then.next — AI-powered calendar system to promote user independence and goal achievement
-
-YouLi (youli.io) (Mobile App Contractor)
-• Built YouLi Trip mobile app (iOS/Android) with full offline trip page support, enabling seamless access for users in low/no connectivity
 
 Stairwell (Software Engineer)                                                    Apr 2021 – Oct 2021 (Remote)
 • Developed new malware ingester pipeline, expanding detection capabilities for cloud-scale threat intelligence
@@ -25,6 +21,9 @@ Stairwell (Software Engineer)                                                   
 Speakeasy (Cofounder & Engineer)                                                 Apr 2020 – Apr 2021 (Remote)
 • Architected full-stack video events platform supporting 300+ concurrent participants reliably
 • Collaborated with cofounders to secure first paying customer, running multiple high-attendance weekly events
+
+YouLi (youli.io) (Mobile App Contractor)                                         2019 – 2020 (Remote)
+• Built YouLi Trip mobile app (iOS/Android) with full offline trip page support, enabling seamless access for users in low/no connectivity
 
 Google                                                                           Apr 2016 – Mar 2019 (San Francisco, CA)
 Go Cloud Team (Aug 2017 – Mar 2019)
