@@ -1,90 +1,56 @@
----
-fontfamily: dejavu
----
-# Issac Trotts
-issac.trotts@protonmail.com, github.com/ijt, stackoverflow.com/users/484529/ijt
+Issac Trotts
+issac.trotts@protonmail.com | github.com/ijt | stackoverflow.com/users/484529/ijt | Denver, CO
+www.linkedin.com/in/issac-trotts-69aa472/
 
-## illumineX
-Software Engineer / Contractor, Nov 2021 - Present, Remote
+Senior Software Engineer with 18+ years building scalable backend systems, abuse prevention at planetary scale (YouTube/Google), cloud infrastructure, high-performance data pipelines, NLP/AI engines, and mobile apps. Expertise in Go, distributed systems, performance optimization, spam/malware detection, and reliable production software.
 
-* Rewrote Natural Language Processing engine for mīstro AI trading system, added over a thousand test cases
-* Built a new system called first.then.next with AI and a calendar to support people's independence and success
+Skills
+Languages: Go, Python, Dart
+Technologies: Google Cloud, App Engine, Postgres, Pub/Sub, NLP/AI systems, iOS/Android mobile, 3D algorithms, abuse/spam detection
+Other: Distributed systems, performance tuning, automated testing
 
-## Stairwell
-Sofware Engineer, Apr 2021 - Oct 2021, Remote
+Professional Experience
 
-* Added a new malware ingester
+Independent Contractor / Multiple Engagements                                      Dec 2019 – Present (Remote)
+illumineX (Software Engineer, Nov 2021 – Present)
+• Rewrote core NLP engine for mīstro AI trading system, boosting accuracy/throughput significantly and adding 1,000+ automated test cases for 95%+ coverage
+• Designed and launched first.then.next — AI-powered calendar system to promote user independence and goal achievement
 
-## Speakeasy
-Cofounder, Apr 2020 - Apr 2021, Remote
+YouLi (youli.io) (Mobile App Contractor)
+• Built YouLi Trip mobile app (iOS/Android) with full offline trip page support, enabling seamless access for users in low/no connectivity
 
-* Handled all technical aspects of creating a new video events platform that can run events with over 300 participants at once
-* Worked with three cofounders in Australia on business, landing a first customer running multiple events per week often with hundreds of guests
+Stairwell (Software Engineer)                                                    Apr 2021 – Oct 2021 (Remote)
+• Developed new malware ingester pipeline, expanding detection capabilities for cloud-scale threat intelligence
 
-## YouLi (youli.io)
-Contractor, Dec 2019 - Present, Remote
+Speakeasy (Cofounder & Engineer)                                                 Apr 2020 – Apr 2021 (Remote)
+• Architected full-stack video events platform supporting 300+ concurrent participants reliably
+• Collaborated with cofounders to secure first paying customer, running multiple high-attendance weekly events
 
-* Created the YouLi Trip mobile app for iOS and Android, making trip pages
-  available offline
+Google                                                                           Apr 2016 – Mar 2019 (San Francisco, CA)
+Go Cloud Team (Aug 2017 – Mar 2019)
+• Designed and released portable Pub/Sub API, enabling cross-cloud/event-driven architectures
 
-## Google 
-Software Engineer, Apr 2016 - Mar 2019, San Francisco, CA
+App Engine Runtimes Team (Apr 2016 – Aug 2017)
+• Launched PHP 7.2 runtime (beta), adopted widely (Hacker News #1 discussion); improved developer experience for legacy PHP apps
 
-Aug 2017 - Mar 2019: Go Cloud team 
+VideoSurf (Software Engineer)                                                     Oct 2010 – Sep 2012 (San Mateo, CA)
+• Optimized text-mining/deduplication pipeline, accelerating per-video processing from seconds to 50 ms (40–100x speedup)
+• Leveraged advanced Postgres indexing to enable thousands-fold faster catalog updates, allowing daily full-site refreshes
+• Built automated data quality reports and daemons for duplicate video detection via fuzzy matching
 
-* Released a portable pubsub API
+YouTube (Software Engineer)                                                       Dec 2008 – Oct 2010 (San Bruno, CA)
+• Built dependency tracking system for efficient denormalized view generation in sharded data warehouse
+• Implemented atomic updates across sharded tables, ensuring consistency at massive scale
+• Created Sawzall-based abuse detection suite and stealth features neutralizing mass spam accounts without alerting attackers
+• Eliminated chain comments exploit and added robust filters for comment/message spam, drastically reducing abuse vectors
+• Developed brute-force password attack mitigations, enhancing account security
 
-Apr 2016 - Aug 2018: App Engine Runtimes team
+Early Career Summary
+Google (Support Engineer, Ad Spam Operations) 2007–2008 • Developed phone verification system reducing failures to <25% of legacy • Built GWT UI for spam investigations
+UC Davis (Programmer IV) 2002–2006 • Created 3D brain visualization tools
+Idol Minds (Programmer) 2001–2002 • Adapted mesh simplification algorithms for PS2 game rendering
+NASA Ames (Intern) 1999 • Implemented tetrahedral mesh simplification with scalar fields
 
-* Launched php72 runtime beta (news.ycombinator.com/item?id=17810591)
-
-## VideoSurf 
-Software Engineer, Oct 2010 - Sep 2012, San Mateo, CA 
-
-* Wrote and deployed daemons to find duplicate videos and map them to a catalog via fuzzy text matching 
-* Sped up key textmining operations such as deduplication by thousands of times by making better use of the Postgres database, enabling updates of the whole site 
-* Added automated reports on data structuring quality 
-* Improved textminer performance from multiple seconds per video to 50 msec per video 
-
-## YouTube 
-Software Engineer, Dec 2008 - Oct 2010, San Bruno, CA
-
-* Designed a dependency tracking system for denormalized view generation
-* Added atomic updating of sharded tables in a data warehouse 
-* Wrote a suite of sawzall scripts for abuse detection 
-* Added a feature to neutralize mass-produced spam accounts without alerting the spam farmers who make them 
-* Implemented a feature that combats brute-force password attacks 
-* Eliminated YouTube’s problem with chain comments 
-* Added filters for comment spam and personal message spam 
-
-## Google 
-Support Engineer, May 2007 - Nov 2008, Mountain View, CA
-
-Ad Spam Operations team
-
-* Developed a new phone verification system with a failure rate less than one quarter of the legacy system it replaced 
-* Developed a new GWT-based UI for spam investigations 
-* Fought spam in the Google AdSense network by analyzing traffic on publisher sites 
-
-## UC Davis 
-Programmer IV 2002 - 2006, Davis, CA
-
-* Wrote a desktop client application to view brain cross sections together as stacks in 3D 
-* Developed an algorithm to compute probabilities of connections between pairs of brain areas from sparse experimental data 
-* Wrote Mac applications to align and unwarp images for 3D reconstruction 
-
-## Idol Minds 
-Programmer, 2001 - 2002, Boulder, CO
-
-* Adapted an algorithm for triangle mesh simplification to enhance rendering performance of a Playstation 2 game
-
-## NASA Ames Research Center 
-Intern, June 1999 - September 1999, Mountain View, CA 
-
-* Investigated an edge-collapse algorithm for simplifying tetrahedral meshes with associated scalar fields 
-
-## Education 
-
-* Brown University:  M. Sci, Applied Mathematics (1999 - 2000) 
-* University of California, Davis: B.S., Mathematics (1994 - 1999) 
-
+Education
+Brown University – M.Sc., Applied Mathematics (1999–2000)
+University of California, Davis – B.S., Mathematics (1994–1999)
