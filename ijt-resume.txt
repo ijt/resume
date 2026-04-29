@@ -5,13 +5,13 @@ www.linkedin.com/in/issac-trotts-69aa472/
 Senior Software Engineer with 18+ years building scalable backend systems, abuse prevention at planetary scale (YouTube/Google), cloud infrastructure, high-performance data pipelines, NLP/AI engines, and mobile apps. Expertise in Go, distributed systems, performance optimization, spam/malware detection, and reliable production software.
 
 Skills
-Languages: Go, Python, Dart
+Languages: Go, Python, Dart, Elixir
 Technologies: Google Cloud, App Engine, Postgres, Pub/Sub, NLP/AI systems, iOS/Android mobile, 3D algorithms, abuse/spam detection
 Other: Distributed systems, performance tuning, automated testing
 
 Professional Experience
 
-illumineX (Software Engineering Contractor)                                        Nov 2021 – Present) (Remote)
+illumineX (Software Engineering Contractor)                                      Nov 2021 – Present (Remote)
 • Rewrote core NLP engine for mīstro AI trading system, boosting accuracy/throughput significantly and adding over a thousand automated test cases
 • Designed and launched first.then.next — AI-powered calendar system to promote user independence and goal achievement
 
@@ -45,10 +45,18 @@ YouTube (Software Engineer)                                                     
 • Developed brute-force password attack mitigations, enhancing account security
 
 Early Career Summary
-Google (Support Engineer, Ad Spam Operations) 2007–2008 • Developed phone verification system reducing failures to <25% of legacy • Built GWT UI for spam investigations
-UC Davis (Programmer IV) 2002–2006 • Created 3D brain visualization tools
-Idol Minds (Programmer) 2001–2002 • Adapted mesh simplification algorithms for PS2 game rendering
-NASA Ames (Intern) 1999 • Implemented tetrahedral mesh simplification with scalar fields
+Google (Support Engineer, Ad Spam Operations) 2007–2008 
+• Developed phone verification system reducing failures to <25% of legacy 
+• Built GWT UI for spam investigations
+
+UC Davis (Programmer IV) 2002–2006 
+• Created 3D brain visualization tools
+
+Idol Minds (Programmer) 2001–2002 
+• Adapted mesh simplification algorithms for PS2 game rendering
+
+NASA Ames (Intern) 1999 
+• Implemented tetrahedral mesh simplification with scalar fields
 
 Education
 Brown University – M.Sc., Applied Mathematics (1999–2000)
