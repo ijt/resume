@@ -1,107 +1,103 @@
 # Issac Trotts
 
-**Senior Software Engineer**
+**Senior Software Engineer · Go · Distributed Systems**
 
 [issac.trotts@protonmail.com](mailto:issac.trotts@protonmail.com)  
-[github.com/ijt](https://github.com/ijt) | [Stack Overflow](https://stackoverflow.com/users/484529/ijt)  
-Denver, CO  
-[LinkedIn](https://www.linkedin.com/in/issac-trotts-69aa472/)
+[github.com/ijt](https://github.com/ijt) | [LinkedIn](https://www.linkedin.com/in/issac-trotts-69aa472/) | [X](https://x.com/IssacTrotts)  
+Colorado · Remote (US)
 
 ---
 
-### Professional Summary
+### Summary
 
-Senior Software Engineer with **18+ years** of experience building scalable backend systems, abuse prevention at planetary scale (YouTube/Google), cloud infrastructure, high-performance data pipelines, NLP/AI engines, and mobile applications.
-
-**Expertise**: Go, distributed systems, performance optimization, spam/malware detection, and reliable production software.
+Senior engineer with 20+ years of shipping production software: abuse prevention at YouTube scale, the portable Pub/Sub API in Google's Go Cloud, a rewritten NLP engine for an AI trading system, and mobile apps that have run for years without a crash. I work well remotely and independently, write heavily tested code, and build today with Go and AI coding agents.
 
 ---
 
 ### Skills
 
 **Languages**  
-Go • Python • Dart • Elixir
+Go · Elixir · Python · C++ · Dart · Rust · SQL
 
-**Technologies**  
-Google Cloud • App Engine • Postgres • Pub/Sub • NLP/AI Systems • iOS/Android • 3D Algorithms • Abuse/Spam Detection
+**Platforms**  
+Phoenix LiveView · Postgres · Google Cloud / App Engine · Pub/Sub · Qt · Flutter (iOS & Android)
 
-**Other**  
-Distributed Systems • Performance Tuning • Automated Testing
+**Strengths**  
+Distributed systems · performance tuning · abuse & spam detection · NLP · automated testing
 
 ---
 
-### Professional Experience
+### Experience
 
 **illumineX** — Software Engineering Contractor  
-*Nov 2021 – Present (Remote)*
+*Nov 2021 – Sep 2026 · Remote*
 
-- Rewrote core **NLP engine** for mīstro AI trading system, significantly boosting accuracy and throughput while adding 1,000+ automated test cases
-- Designed and launched **first.then.next** — an AI-powered calendar system focused on user independence and goal achievement
+- Rewrote the core **NLP engine** for the mīstro AI trading system, significantly improving accuracy and throughput, and added 1,000+ automated tests.
+- Designed and launched **first.then.next**, an AI-powered calendar focused on user independence and goal achievement.
 
 **Stairwell** — Software Engineer  
-*Apr 2021 – Oct 2021 (Remote)*
+*Apr 2021 – Oct 2021 · Remote*
 
-- Developed new malware ingester pipeline, expanding cloud-scale threat intelligence and detection capabilities
+- Built a new malware ingestion pipeline, expanding cloud-scale threat intelligence and detection.
 
 **Speakeasy** — Cofounder & Engineer  
-*Apr 2020 – Apr 2021 (Remote)*
+*Apr 2020 – Apr 2021 · Remote*
 
-- Architected full-stack video events platform supporting **300+ concurrent participants** with high reliability
-- Collaborated with cofounders to secure first paying customer and successfully run multiple high-attendance weekly events
+- Architected a full-stack video events platform in **Elixir with Phoenix LiveView** that reliably supported **300+ concurrent participants**.
+- Landed the first paying customer with my cofounders and ran recurring high-attendance weekly events.
 
-**YouLi (youli.io)** — Mobile App Contractor  
-*2019 – 2020 (Remote)*
+**YouLi** — Mobile App Contractor  
+*2019 – 2020 · Remote*
 
-- Built **YouLi Trip** mobile app (iOS & Android) with full offline trip page support, enabling seamless use in low/no connectivity environments
-- This app reports no crashes and required only aesthetic maintenance over its first six years of deployment
+- Built the **YouLi Trip** app for iOS and Android with full offline support for trip pages.
+- No reported crashes and only cosmetic maintenance in its first six years in production.
 
 **Google** — Software Engineer  
-*Apr 2016 – Mar 2019 (San Francisco, CA)*
+*Apr 2016 – Mar 2019 · San Francisco*
 
-**Go Cloud Team** (Aug 2017 – Mar 2019)
-- Designed and released portable **Pub/Sub API**, enabling cross-cloud and event-driven architectures
+*Go Cloud · Aug 2017 – Mar 2019*
 
-**App Engine Runtimes Team** (Apr 2016 – Aug 2017)
-- Launched **PHP 7.2 runtime** (beta) — widely adopted and reached #1 on Hacker News; greatly improved developer experience for legacy PHP apps
+- Designed and shipped the portable **Pub/Sub API** ([gocloud.dev/pubsub](https://gocloud.dev/howto/pubsub/)), letting Go services send and receive messages across GCP, AWS, Azure, Kafka, NATS and more through one interface.
+
+*App Engine Runtimes · Apr 2016 – Aug 2017*
+
+- Launched the **PHP 7.2 runtime** (beta), which was widely adopted and hit #1 on Hacker News.
 
 **VideoSurf** — Software Engineer  
-*Oct 2010 – Sep 2012 (San Mateo, CA)*
+*Oct 2010 – Sep 2012 · San Mateo*
 
-- Optimized text-mining/deduplication pipeline, accelerating per-video processing from seconds to **50 ms** (40–100x speedup)
-- Leveraged advanced Postgres indexing for thousands-fold faster catalog updates, enabling daily full-site refreshes
-- Built automated data quality reports and daemons for duplicate video detection using fuzzy matching
+- Sped up the text-mining and deduplication pipeline from seconds to **50 ms** per video (40–100×).
+- Used Postgres indexing to make catalog updates thousands of times faster, enabling daily full-site refreshes.
+- Built fuzzy-matching daemons for duplicate video detection, plus automated data-quality reports.
 
 **YouTube** — Software Engineer  
-*Dec 2008 – Oct 2010 (San Bruno, CA)*
+*Dec 2008 – Oct 2010 · San Bruno*
 
-- Built dependency tracking system for efficient denormalized view generation in sharded data warehouse
-- Implemented atomic updates across sharded tables at massive scale
-- Created Sawzall-based abuse detection suite and stealth features that neutralized mass spam accounts without alerting attackers
-- Eliminated chain comments exploit and added robust spam filters, drastically reducing abuse
-- Developed brute-force password attack mitigations, strengthening account security
+- Built a Sawzall-based **abuse detection** suite with stealth countermeasures that neutralized mass spam accounts without tipping off attackers.
+- Shut down the chain-comment exploit, added spam filters, and built brute-force password attack mitigations.
+- Built dependency tracking for denormalized views in a sharded data warehouse, with atomic updates across shards.
 
 ---
 
-### Early Career
+### Open Source
 
-- **Google** — Support Engineer, Ad Spam Operations (2007–2008)  
-  Built phone verification system (reduced failures to <25% of legacy) and GWT UI for spam investigations
+- **[Ohm](https://github.com/ijt/ohm)** — A minimal web browser for Omarchy Linux: one window per page, with Hyprland as the tab bar. Warm opens in under 150 ms. *C++ · Qt WebEngine · 2026*
+- **[go-anytime](https://github.com/ijt/go-anytime)** — Parses natural and standard dates, times and ranges in Go without knowing the format in advance. *Go · parser combinators*
+- **[Go Cloud Pub/Sub](https://gocloud.dev/howto/pubsub/)** — Portable, driver-based pub/sub API for Go. Designed and built at Google. *Go · distributed messaging*
+- **[cmakelists_parsing](https://github.com/ijt/cmakelists_parsing)** · **[trigram](https://github.com/ijt/trigram)** — A Python parser for CMakeLists.txt, and trigram-based string similarity in Rust. *Python · Rust*
 
-- **UC Davis** — Programmer IV (2002–2006)  
-  Created 3D brain visualization tools
+---
 
-- **Idol Minds** — Programmer (2001–2002)  
-  Adapted mesh simplification algorithms for PS2 game rendering
+### Earlier
 
-- **NASA Ames** — Intern (1999)  
-  Implemented tetrahedral mesh simplification with scalar fields
+- **Google, Ad Spam Operations** — Built a phone verification system that cut failures to under 25% of the old system's, plus a GWT UI for spam investigations. *2007–2008*
+- **UC Davis** — Programmer IV. Built 3D brain visualization tools. *2002–2006*
+- **Idol Minds** — Adapted mesh simplification algorithms for PS2 game rendering. *2001–2002*
+- **NASA Ames** — Intern. Implemented tetrahedral mesh simplification with scalar fields. *1999*
 
 ---
 
 ### Education
 
-**Brown University**  
-M.Sc., Applied Mathematics (1999–2000)
-
-**University of California, Davis**  
-B.S., Mathematics (1994–1999)
+**Brown University** — M.Sc., Applied Mathematics  
+**University of California, Davis** — B.S., Mathematics
