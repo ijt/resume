@@ -178,8 +178,22 @@ def main():
         body.append(f"\n  <section>\n    <h2>{title}</h2>\n{SECTIONS[title](lines)}  </section>\n")
 
     template = (ROOT / "template.html").read_text()
-    out = template.replace("{{body}}", "".join(body).rstrip("\n"))
-    (ROOT / "index.html").write_text(out)
+    page = template.replace("{{body}}", "".join(body).rstrip("\n"))
+
+    # index.html is the static resume; motion.html is the same page, animated.
+    outputs = {
+        "index.html": ("", ""),
+        "motion.html": (
+            '<link rel="stylesheet" href="motion.css">\n',
+            '<script src="motion.js"></script>\n',
+        ),
+    }
+    for name, (head_extra, body_extra) in outputs.items():
+        out = page.replace("{{head_extra}}", head_extra).replace("{{body_extra}}", body_extra)
+        path = ROOT / name
+        # Leave unchanged files alone so make doesn't needlessly reprint the PDF.
+        if not path.exists() or path.read_text() != out:
+            path.write_text(out)
 
 
 if __name__ == "__main__":
