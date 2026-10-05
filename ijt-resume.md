@@ -33,7 +33,7 @@ Visualization · Distributed systems · Performance tuning · Abuse & spam detec
 *Nov 2021 – Present · Remote*
 
 - Rewrote the core **NLP engine** for the mīstro AI trading system, significantly improving accuracy and throughput, and added 1,000+ automated tests.
-- Built the web app for **firstthennext.com**, an AI-powered calendar focused on user independence and goal achievement.
+- Built the web app for **firstthennext.com**, a private visual scheduling platform that helps people of all ages prepare, participate, and stay connected, with AI assistants and reports.
 
 **Stairwell** — Software Engineer  
 *Apr 2021 – Oct 2021 · Remote*
