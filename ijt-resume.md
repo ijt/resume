@@ -10,7 +10,7 @@ Colorado · Remote (US)
 
 ### Summary
 
-Senior engineer with 20+ years of shipping production software: abuse prevention at YouTube scale, the portable Pub/Sub API in Google's Go Cloud, a rewritten NLP engine for an AI trading system, and mobile apps that have run for years without a crash. I work well remotely and independently, write heavily tested code, and build today with Go and AI coding agents.
+Senior engineer with 20+ years of shipping production software: abuse prevention at YouTube scale, the portable Pub/Sub API in Google's Go Cloud, the first PHP 7 runtime on App Engine, a rewritten NLP engine for an AI trading system, and a mobile app for offline trip itineraries. I work well remotely and independently and am in the habit of verifying things.
 
 ---
 
@@ -23,17 +23,17 @@ Go · Elixir · Python · C++ · Dart · Rust · SQL
 Phoenix LiveView · Postgres · Google Cloud / App Engine · Pub/Sub · Qt · Flutter (iOS & Android)
 
 **Strengths**  
-Distributed systems · performance tuning · abuse & spam detection · NLP · automated testing
+Visualization · Distributed systems · Performance tuning · Abuse & spam detection · NLP · Automated testing
 
 ---
 
 ### Experience
 
 **illumineX** — Software Engineering Contractor  
-*Nov 2021 – Sep 2026 · Remote*
+*Nov 2021 – Present · Remote*
 
 - Rewrote the core **NLP engine** for the mīstro AI trading system, significantly improving accuracy and throughput, and added 1,000+ automated tests.
-- Designed and launched **first.then.next**, an AI-powered calendar focused on user independence and goal achievement.
+- Built **first.then.next**, an AI-powered calendar focused on user independence and goal achievement.
 
 **Stairwell** — Software Engineer  
 *Apr 2021 – Oct 2021 · Remote*
@@ -66,7 +66,7 @@ Distributed systems · performance tuning · abuse & spam detection · NLP · au
 **VideoSurf** — Software Engineer  
 *Oct 2010 – Sep 2012 · San Mateo*
 
-- Sped up the text-mining and deduplication pipeline from seconds to **50 ms** per video (40–100×).
+- Sped up the text-mining and deduplication pipeline from seconds to **50 ms** per video (~70×).
 - Used Postgres indexing to make catalog updates thousands of times faster, enabling daily full-site refreshes.
 - Built fuzzy-matching daemons for duplicate video detection, plus automated data-quality reports.
 
