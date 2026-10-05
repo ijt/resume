@@ -1,6 +1,6 @@
 # Issac Trotts
 
-**Senior Software Engineer · Go · Elixir**
+**Senior Software Engineer**
 
 [issac.trotts@protonmail.com](mailto:issac.trotts@protonmail.com)  
 [github.com/ijt](https://github.com/ijt) | [LinkedIn](https://www.linkedin.com/in/issac-trotts-69aa472/) | [X](https://x.com/IssacTrotts)  
