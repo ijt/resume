@@ -123,7 +123,105 @@
     .project, .compact li { break-inside: avoid; }
   }
 </style>
-<link rel="stylesheet" href="motion.css">
+<style>
+/* Animation layer for motion.html. index.html never loads this file. */
+
+@media (prefers-reduced-motion: no-preference) {
+  :root { --ease: cubic-bezier(.2, .75, .2, 1); }
+
+  /* Reading progress bar */
+  .progress {
+    position: fixed; inset: 0 0 auto 0; height: 3px; z-index: 10;
+    background: var(--accent);
+    transform: scaleX(var(--p, 0)); transform-origin: left;
+  }
+
+  /* Pointer spotlight on the page */
+  @media (hover: hover) {
+    .page {
+      background:
+        radial-gradient(520px circle at var(--mx, -999px) var(--my, -999px),
+          color-mix(in srgb, var(--accent) 7%, transparent), transparent 70%),
+        var(--paper);
+    }
+  }
+
+  /* Name: letters rise in one at a time */
+  h1 .ch {
+    display: inline-block; opacity: 0;
+    transform: translateY(.45em) rotate(6deg);
+    animation: rise .8s var(--ease) forwards;
+    animation-delay: calc(var(--i) * 40ms);
+  }
+  @keyframes rise { to { opacity: 1; transform: none; } }
+
+  /* Header rule draws across */
+  html.js header { position: relative; border-bottom-color: transparent; }
+  html.js header::after {
+    content: ""; position: absolute; left: 0; right: 0; bottom: -2px; height: 2px;
+    background: var(--ink);
+    transform: scaleX(0); transform-origin: left;
+    animation: draw 1.1s .45s cubic-bezier(.65, 0, .25, 1) forwards;
+  }
+  @keyframes draw { to { transform: scaleX(1); } }
+
+  /* Scroll reveals, staggered by motion.js via --d */
+  html.js .reveal {
+    opacity: 0; transform: translateY(14px);
+    transition: opacity .7s var(--ease), transform .7s var(--ease), letter-spacing .9s var(--ease);
+    transition-delay: var(--d, 0ms);
+  }
+  html.js .reveal.in { opacity: 1; transform: none; }
+  html.js h2.reveal { letter-spacing: .5em; }
+  html.js h2.reveal.in { letter-spacing: .14em; }
+  html.js li.reveal { transform: translateX(-10px); }
+  html.js li.reveal.in { transform: none; }
+
+  /* Numbers count up; tabular digits keep the width steady */
+  strong.count { font-variant-numeric: tabular-nums; }
+
+  /* Experience timeline that fills in as you scroll */
+  .xp { position: relative; }
+  .xp::before, .xp::after {
+    content: ""; position: absolute; left: -32px; top: 34px; bottom: 6px; width: 2px;
+    background: var(--rule);
+  }
+  .xp::after {
+    background: var(--accent);
+    transform: scaleY(var(--tl, 0)); transform-origin: top;
+  }
+  .xp .job { position: relative; }
+  .xp .job::before {
+    content: ""; position: absolute; left: -36px; top: 6px; z-index: 1;
+    width: 10px; height: 10px; border-radius: 50%;
+    background: var(--paper); border: 2px solid var(--rule);
+    transition: background .4s, border-color .4s, transform .4s var(--ease);
+  }
+  .xp .job.lit::before { background: var(--accent); border-color: var(--accent); transform: scale(1.15); }
+
+  /* Hover details */
+  .job-head h3, .project { transition: transform .3s var(--ease); }
+  .job:hover .job-head h3 { transform: translateX(4px); }
+  .project:hover { transform: translateY(-3px); }
+  .page a {
+    background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat;
+    transition: background-size .3s var(--ease);
+  }
+  .page a:hover { background-size: 100% 1px; text-decoration: none; }
+
+  @media (max-width: 700px) {
+    .xp::before, .xp::after, .xp .job::before { display: none; }
+  }
+}
+
+@media print {
+  .progress, .xp::before, .xp::after, .xp .job::before { display: none !important; }
+  html.js .reveal, h1 .ch { opacity: 1 !important; transform: none !important; animation: none !important; }
+  html.js h2.reveal { letter-spacing: .14em !important; }
+  html.js header { border-bottom-color: var(--ink) !important; }
+  html.js header::after { display: none !important; }
+}
+</style>
 </head>
 <body>
 
@@ -291,6 +389,103 @@
   </section>
 </main>
 
-<script src="motion.js"></script>
+<script>
+// Animation layer for motion.html. Without this script (or with reduced motion
+// requested), the page is simply the static resume.
+(() => {
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const root = document.documentElement;
+  root.classList.add("js");
+
+  // Split the name into letters that rise in one by one.
+  const h1 = document.querySelector("h1");
+  const name = h1.textContent;
+  h1.textContent = "";
+  h1.setAttribute("aria-label", name);
+  [...name].forEach((c, i) => {
+    if (c === " ") return h1.append(" ");
+    const s = document.createElement("span");
+    s.className = "ch";
+    s.setAttribute("aria-hidden", "true");
+    s.style.setProperty("--i", i);
+    s.textContent = c;
+    h1.append(s);
+  });
+
+  // Count numbers like "1,000+" and "50 ms" up from zero when they appear.
+  const counters = new Map();
+  for (const el of document.querySelectorAll("strong")) {
+    const m = el.textContent.match(/^(\d[\d,]*)([\s\S]*)$/);
+    if (!m) continue;
+    el.classList.add("count");
+    counters.set(el, { n: Number(m[1].replace(/,/g, "")), rest: m[2] });
+  }
+  const countUp = (el) => {
+    const { n, rest } = counters.get(el);
+    const t0 = performance.now();
+    const tick = (t) => {
+      const k = Math.min(1, (t - t0) / 1400);
+      const v = Math.round(n * (1 - Math.pow(1 - k, 3)));
+      el.textContent = v.toLocaleString("en-US") + rest;
+      if (k < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  };
+
+  // Reveal elements as they scroll into view, staggering each batch.
+  const targets = document.querySelectorAll(
+    ".role, .contact, h2, .summary, .skills dt, .skills dd, .job-head, .sub, " +
+    ".job li, .project, .compact li, .edu > div"
+  );
+  targets.forEach((el) => el.classList.add("reveal"));
+  const io = new IntersectionObserver((entries) => {
+    entries
+      .filter((e) => e.isIntersecting)
+      .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)
+      .forEach((e, i) => {
+        const el = e.target;
+        el.style.setProperty("--d", `${Math.min(i, 12) * 70}ms`);
+        el.classList.add("in");
+        io.unobserve(el);
+        el.querySelectorAll("strong.count").forEach((s) =>
+          setTimeout(() => countUp(s), 200 + i * 70)
+        );
+      });
+  }, { rootMargin: "0px 0px -8% 0px", threshold: 0.1 });
+  targets.forEach((el) => io.observe(el));
+  // Hold counters at zero until revealed.
+  counters.forEach(({ rest }, el) => { el.textContent = "0" + rest; });
+
+  // Reading progress bar and the experience timeline follow the scroll.
+  const bar = document.createElement("div");
+  bar.className = "progress";
+  document.body.prepend(bar);
+  const xp = [...document.querySelectorAll("section")]
+    .find((s) => s.querySelector("h2")?.textContent === "Experience");
+  xp?.classList.add("xp");
+  const jobs = xp ? [...xp.querySelectorAll(".job")] : [];
+
+  const onScroll = () => {
+    const max = root.scrollHeight - innerHeight;
+    bar.style.setProperty("--p", max > 0 ? scrollY / max : 1);
+    if (!xp) return;
+    const line = innerHeight * 0.6;
+    const r = xp.getBoundingClientRect();
+    xp.style.setProperty("--tl", Math.max(0, Math.min(1, (line - r.top) / r.height)));
+    jobs.forEach((j) => j.classList.toggle("lit", j.getBoundingClientRect().top < line));
+  };
+  addEventListener("scroll", onScroll, { passive: true });
+  addEventListener("resize", onScroll);
+  onScroll();
+
+  // A soft spotlight follows the pointer across the page.
+  const page = document.querySelector(".page");
+  page.addEventListener("pointermove", (e) => {
+    const r = page.getBoundingClientRect();
+    page.style.setProperty("--mx", `${e.clientX - r.left}px`);
+    page.style.setProperty("--my", `${e.clientY - r.top}px`);
+  });
+})();
+</script>
 </body>
 </html>

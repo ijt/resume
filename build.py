@@ -180,12 +180,15 @@ def main():
     template = (ROOT / "template.html").read_text()
     page = template.replace("{{body}}", "".join(body).rstrip("\n"))
 
-    # index.html is the static resume; motion.html is the same page, animated.
+    # index.html is the static resume; motion.html is the same page, animated,
+    # with motion.css and motion.js inlined so it is a single file.
+    motion_css = (ROOT / "motion.css").read_text()
+    motion_js = (ROOT / "motion.js").read_text()
     outputs = {
         "index.html": ("", ""),
         "motion.html": (
-            '<link rel="stylesheet" href="motion.css">\n',
-            '<script src="motion.js"></script>\n',
+            f"<style>\n{motion_css}</style>\n",
+            f"<script>\n{motion_js}</script>\n",
         ),
     }
     for name, (head_extra, body_extra) in outputs.items():

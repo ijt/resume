@@ -4,7 +4,7 @@ CHROME ?= $(shell command -v google-chrome-stable 2>/dev/null || echo "/Applicat
 
 all: index.html motion.html ijt-resume.pdf
 
-index.html motion.html: ijt-resume.md template.html build.py
+index.html motion.html: ijt-resume.md template.html build.py motion.css motion.js
 	python3 build.py
 
 ijt-resume.pdf: index.html
