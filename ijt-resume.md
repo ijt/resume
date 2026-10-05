@@ -1,6 +1,6 @@
 # Issac Trotts
 
-**Senior Software Engineer · Go · Distributed Systems**
+**Senior Software Engineer · Go · Elixir**
 
 [issac.trotts@protonmail.com](mailto:issac.trotts@protonmail.com)  
 [github.com/ijt](https://github.com/ijt) | [LinkedIn](https://www.linkedin.com/in/issac-trotts-69aa472/) | [X](https://x.com/IssacTrotts)  
@@ -23,7 +23,7 @@ Go · Elixir · Python · C++ · Dart · Rust · SQL
 Phoenix LiveView · Postgres · Google Cloud / App Engine · Pub/Sub · Qt · Flutter (iOS & Android)
 
 **Strengths**  
-Visualization · Distributed systems · Performance tuning · Abuse & spam detection · NLP · Automated testing
+Visualization · Performance tuning · Abuse & spam detection · NLP · Automated testing
 
 ---
 
@@ -83,7 +83,7 @@ Visualization · Distributed systems · Performance tuning · Abuse & spam detec
 
 - **[Ohm](https://github.com/ijt/ohm)** — A minimal web browser for Omarchy Linux: one window per page, with Hyprland as the tab bar. Warm opens in under 150 ms. *C++ · Qt WebEngine · 2026*
 - **[go-anytime](https://github.com/ijt/go-anytime)** — Parses natural and standard dates, times and ranges in Go without knowing the format in advance. *Go · parser combinators*
-- **[Go Cloud Pub/Sub](https://gocloud.dev/howto/pubsub/)** — Portable, driver-based pub/sub API for Go. Designed and built at Google. *Go · distributed messaging*
+- **[Go Cloud Pub/Sub](https://gocloud.dev/howto/pubsub/)** — Portable, driver-based pub/sub API for Go. Designed and built at Google. *Go · messaging*
 - **[cmakelists_parsing](https://github.com/ijt/cmakelists_parsing)** · **[trigram](https://github.com/ijt/trigram)** — A Python parser for CMakeLists.txt, and trigram-based string similarity in Rust. *Python · Rust*
 
 ---
